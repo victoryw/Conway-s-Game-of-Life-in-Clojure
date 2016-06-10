@@ -1,3 +1,4 @@
+<<<<<<< ec1d35193bdd3669168329c17b69a804d453236c
 pom.xml
 pom.xml.asc
 *jar
@@ -10,3 +11,9 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-port
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
