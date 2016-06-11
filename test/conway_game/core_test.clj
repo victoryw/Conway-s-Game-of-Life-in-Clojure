@@ -2,7 +2,7 @@
   (:require [clojure.test :refer :all]
             [conway-game.core :refer :all]))
 
-(deftest a-test
+(deftest main-test
   (testing "moke println."
     (let [result (atom nil)]
     (with-redefs-fn
