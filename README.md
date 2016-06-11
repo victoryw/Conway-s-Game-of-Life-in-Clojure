@@ -1,5 +1,5 @@
 # Conway-s-Game-of-Life-in-Clojure
-
+[![Build Status](https://travis-ci.org/victoryw/Conway-s-Game-of-Life-in-Clojure.svg?branch=master)](https://travis-ci.org/victoryw/Conway-s-Game-of-Life-in-Clojure)
 FIXME: description
 
 ## Installation
