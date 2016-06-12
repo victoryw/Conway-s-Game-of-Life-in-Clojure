@@ -7,4 +7,11 @@
     (def glider (populate
                   (empty-board 6 6)
                   #{[2 0]}))
-    (is (= (get-in glider [2 0]) :on))))
+    (is (= (get-in glider [2 0]) :on)))
+    (is (empty? (filter
+                    #(= % :on)
+                    (assoc
+                        (vec (flatten glider))
+                        12
+                        nil))))
+    )
